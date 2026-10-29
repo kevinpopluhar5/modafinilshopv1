@@ -1,0 +1,2 @@
+
+(() => {const key='modafinilshop-cookie-consent'; const banner=document.querySelector('[data-cookie-banner]'); if(!banner) return; try{if(localStorage.getItem(key)){banner.hidden=true;return;}}catch(e){} banner.hidden=false; const save=(value)=>{try{localStorage.setItem(key,value);}catch(e){} banner.hidden=true;}; document.addEventListener('click',(e)=>{const t=e.target; if(!(t instanceof Element)) return; if(t.closest('[data-cookie-accept]')) save('all'); if(t.closest('[data-cookie-reject]')) save('essential');});})();

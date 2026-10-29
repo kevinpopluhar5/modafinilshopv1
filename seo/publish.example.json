@@ -1,0 +1,11 @@
+{
+  "baseUrl": "",
+  "readyToPublish": false,
+  "catalogReplacedAndChecked": false,
+  "operatorAndPoliciesVerified": false,
+  "publicPages": [
+    "index.html",
+    "ochrana-osobnych-udajov.html"
+  ],
+  "approvedProducts": {}
+}

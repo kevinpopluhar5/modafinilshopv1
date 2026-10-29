@@ -1,0 +1,121 @@
+
+
+:root {
+  --font-display: "Cabinet Grotesk", "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --tracking-display: -.035em;
+}
+
+
+
+html { font-kerning: normal; }
+body, button, input, textarea, select { font-family: var(--font-body) !important; }
+body { font-weight: 440; }
+input, button, textarea, select { font-weight: 550; }
+
+
+
+h1, h2, h3, h4, h5, h6,
+.logo, .footer-brand-text strong,
+.section-title, .hero-copy h1, .hero-copy-glass h1,
+.why-intro h2, .why-card h3, .card-body h3,
+.pd-intro-col h1, .pd-content-heading h2, .pd-related-heading h2,
+.pd-related-card-body strong, .ms-cart-top h2,
+.checkout-flow-header h1, .checkout-block h2, .cookie-card h3 {
+  font-family: var(--font-display) !important;
+  font-synthesis: none;
+  font-kerning: normal;
+}
+
+
+
+h1, h2,
+.hero-copy h1, .hero-copy-glass h1,
+.section-title, .why-intro h2,
+.pd-intro-col h1, .pd-content-heading h2,
+.pd-related-heading h2, .checkout-flow-header h1, .ms-cart-top h2 {
+  font-weight: 800 !important;
+}
+h3, h4, h5, h6, .card-body h3, .why-card h3,
+.pd-related-card-body strong, .cookie-card h3 { font-weight: 700 !important; }
+
+
+
+.hero-copy h1, .hero-copy-glass h1 {
+  font-weight: 800 !important;
+  letter-spacing: -.052em !important;
+  line-height: 1.045 !important;
+  text-wrap: balance;
+}
+.hero-copy-full h1 { max-width: 870px !important; }
+.hero-copy-glass .hero-eyebrow {
+  font-family: var(--font-body) !important;
+  font-weight: 750 !important;
+  letter-spacing: .115em !important;
+}
+.hero-copy-glass p, .hero-copy-full p {
+  font-family: var(--font-body) !important;
+  font-weight: 480;
+  letter-spacing: -.008em;
+}
+
+
+
+.section-title, .why-intro h2, .pd-intro-col h1,
+.pd-content-heading h2, .pd-related-heading h2, .checkout-flow-header h1 {
+  letter-spacing: -.044em !important;
+  line-height: 1.10 !important;
+  text-wrap: balance;
+}
+.why-card h3, .card-body h3, .pd-related-card-body strong {
+  font-weight: 800 !important;
+  letter-spacing: -.025em !important;
+  line-height: 1.17 !important;
+  overflow-wrap: anywhere;
+}
+.section-sub, .why-lead, .why-card p,
+.card-body p, .pd-intro-body, .detail-row-body,
+.provided-line, .faq-item p { font-family: var(--font-body) !important; }
+.catalog-price, .pd-related-card-price { 
+  font-family: var(--font-body) !important;
+  letter-spacing: -.03em;
+  font-weight: 800 !important;
+}
+
+
+
+.logo, .footer-brand-text strong {
+  font-weight: 800 !important;
+  letter-spacing: -.058em !important;
+  white-space: nowrap;
+}
+.header .nav-links, .header .nav-links a {
+  font-family: var(--font-body) !important;
+  font-weight: 650 !important;
+  letter-spacing: -.018em;
+}
+.btn, .ms-add-btn, .ms-cart-checkout, .ms-cart-continue,
+.cookie-btn, .ms-cart-clear, .jump-chip, .catalog-detail-link,
+.ms-cart-line-name, .pd-related-card-cta {
+  font-family: var(--font-body) !important;
+  font-weight: 750 !important;
+  letter-spacing: -.019em;
+}
+.faq-item summary { font-family: var(--font-body) !important; font-weight: 750 !important; letter-spacing: -.024em; }
+
+
+
+@media(max-width: 650px) {
+  .hero-copy h1, .hero-copy-glass h1 {
+    letter-spacing: -.044em !important;
+    line-height: 1.08 !important;
+  }
+  .hero-copy-full h1 { max-width: 100% !important; }
+  .section-title, .why-intro h2, .pd-intro-col h1 { letter-spacing: -.036em !important; }
+  .information-site .header .logo span { letter-spacing: -.047em !important; }
+  .why-card h3, .card-body h3 { letter-spacing: -.018em !important; }
+}
+@media(max-width: 375px) {
+  .information-site .header .logo span { letter-spacing: -.04em !important; }
+  .hero-copy h1, .hero-copy-glass h1 { letter-spacing: -.038em !important; }
+}

@@ -1,0 +1,19 @@
+{
+  "pages": 13,
+  "checked": [
+    "checkout.html",
+    "index.html",
+    "ochrana-osobnych-udajov.html",
+    "products/armodacare-150.html",
+    "products/armodacare-250.html",
+    "products/artvigil.html",
+    "products/modacare-200.html",
+    "products/modacare-300.html",
+    "products/modalert-200.html",
+    "products/modawake.html",
+    "products/modaxl-200.html",
+    "products/modvigil-200.html",
+    "products/waklert.html"
+  ],
+  "issues": []
+}

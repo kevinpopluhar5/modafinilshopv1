@@ -1,0 +1,46 @@
+
+.privacy-policy-page{background:#070c17;color:#edf2ff;min-height:100vh;font-family:"Manrope",system-ui,sans-serif;overflow-x:hidden}
+.privacy-page-bg{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at 3% 3%,rgba(116,91,243,.17),transparent 35%),radial-gradient(ellipse at 94% 8%,rgba(42,140,197,.12),transparent 38%),linear-gradient(160deg,#0c1326 0%,#080d1b 55%,#060b14 100%)}
+.privacy-main{position:relative;z-index:1;padding:0 20px 30px}
+.privacy-container{max-width:1140px;margin:0 auto}
+.privacy-topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:28px 0;border-bottom:1px solid rgba(172,195,243,.13)}
+.privacy-brand{font-family:"Cabinet Grotesk","Manrope",sans-serif;text-decoration:none;color:#f5f7ff;font-weight:800;font-size:clamp(20px,2vw,26px);letter-spacing:-.05em;line-height:1.2}
+.privacy-brand span{color:#9eacff}
+.privacy-back{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 16px;background:rgba(255,255,255,.045);border:1px solid rgba(163,187,235,.18);border-radius:14px;color:#dbe6fa;text-decoration:none;font-size:12px;font-weight:750;transition:background .2s,border-color .2s}
+.privacy-back:hover{background:rgba(119,139,236,.14);border-color:rgba(160,194,255,.35)}
+.privacy-hero{padding:55px 0 36px;max-width:940px}
+.privacy-eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:850;letter-spacing:.18em;color:#b1c7f3}
+.privacy-eyebrow-dot{width:8px;height:8px;background:#8edcf4;border-radius:50%;box-shadow:0 0 15px rgba(113,195,242,.45)}
+.privacy-hero h1{font-family:"Cabinet Grotesk","Manrope",sans-serif;font-size:clamp(40px,6vw,69px);font-weight:800;line-height:1.04;letter-spacing:-.058em;margin:20px 0 20px;color:#f7f9ff}
+.privacy-hero h1 span{background:linear-gradient(110deg,#bcaaff,#88b4ff 50%,#7bd7ec);-webkit-background-clip:text;background-clip:text;color:transparent}
+.privacy-hero>p{max-width:730px;margin:0;font-size:15px;line-height:1.85;color:#b9c6de}
+.privacy-layout{display:grid;grid-template-columns:minmax(220px,265px) minmax(0,1fr);align-items:start;gap:25px}
+.privacy-toc{position:sticky;top:25px;display:grid;gap:3px;padding:23px 16px;border:1px solid rgba(172,196,245,.16);border-radius:23px;background:linear-gradient(155deg,rgba(27,39,71,.83),rgba(10,17,32,.93));box-shadow:0 16px 42px rgba(0,0,0,.15)}
+.privacy-toc-title{font-size:10px;letter-spacing:.18em;color:#91a8d4;font-weight:850;padding:0 11px 14px}
+.privacy-toc a{display:flex;align-items:center;gap:12px;padding:10px 11px;border-radius:11px;font-size:11px;font-weight:800;letter-spacing:.03em;color:#93b8e9;text-decoration:none;transition:background .2s,color .2s}
+.privacy-toc a span{font-size:12px;font-weight:650;letter-spacing:0;color:#c9d4e9}
+.privacy-toc a:hover{background:rgba(116,143,224,.13);color:#b8e9ff}
+.privacy-content{padding:8px 32px 12px;border-radius:26px;background:linear-gradient(145deg,rgba(22,32,59,.91),rgba(9,15,29,.95));border:1px solid rgba(156,185,244,.16);box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.privacy-section{padding:26px 0 29px;scroll-margin-top:20px}
+.privacy-section:not(:last-child){border-bottom:1px solid rgba(172,190,229,.12)}
+.privacy-section-head{display:flex;align-items:center;gap:15px;margin-bottom:15px}
+.privacy-index{flex:0 0 37px;width:37px;height:37px;display:grid;place-items:center;border:1px solid rgba(165,177,249,.2);border-radius:12px;background:linear-gradient(135deg,rgba(131,115,255,.2),rgba(79,172,228,.12));color:#add3ff;font-size:11px;font-weight:850}
+.privacy-section h2{font-family:"Cabinet Grotesk","Manrope",sans-serif;font-size:clamp(20px,2.1vw,26px);font-weight:780;line-height:1.23;letter-spacing:-.03em;color:#f4f6ff;margin:0}
+.privacy-section p,.privacy-section li{color:#c1cce0;font-size:13.5px;line-height:1.87}
+.privacy-section p{margin:0 0 15px}
+.privacy-section p:last-child{margin-bottom:0}
+.privacy-section ul{padding-left:21px;margin:10px 0 0}
+.privacy-section li{padding-left:4px;margin-bottom:8px}
+.privacy-section li::marker{color:#9ba9ff}
+.privacy-section strong{color:#e9efff;font-weight:750}
+.privacy-section a{color:#90d7ff;text-decoration:underline;text-underline-offset:3px}
+.privacy-purpose-grid{display:grid;gap:10px;margin:14px 0 20px}
+.privacy-purpose{border:1px solid rgba(164,182,240,.12);border-radius:15px;padding:15px 17px;background:rgba(255,255,255,.028)}
+.privacy-purpose>strong{display:block;font-size:13.5px;margin-bottom:6px}
+.privacy-purpose>p{font-size:12.5px;margin:0}
+.privacy-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:30px 0 5px;margin-top:23px;border-top:1px solid rgba(171,197,234,.12);font-size:12px;color:#8198bc}
+.privacy-footer a{color:#c4daff;text-decoration:none}
+.privacy-policy-page :is(a,button):focus-visible{outline:2px solid #91dbff;outline-offset:4px}
+@media(max-width:850px){.privacy-layout{grid-template-columns:1fr}.privacy-toc{position:static;grid-template-columns:repeat(2,minmax(0,1fr));padding:13px;gap:2px}.privacy-toc-title{grid-column:1/-1;padding:3px 10px 8px}.privacy-content{padding:6px 25px}.privacy-hero{padding:40px 0 29px}}
+@media(max-width:560px){.privacy-main{padding:0 15px 25px}.privacy-topbar{padding:17px 0}.privacy-back{padding:10px 12px;font-size:11px}.privacy-hero{padding:33px 0 24px}.privacy-hero h1{margin:17px 0;font-size:clamp(39px,10.2vw,55px)}.privacy-hero>p{font-size:13px;line-height:1.75}.privacy-toc{grid-template-columns:1fr 1fr;border-radius:17px}.privacy-toc a{padding:8px 7px;gap:8px;font-size:10px}.privacy-toc a span{font-size:10px}.privacy-content{border-radius:18px;padding:4px 17px}.privacy-section{padding:24px 0}.privacy-section-head{gap:10px}.privacy-index{width:32px;height:32px;flex-basis:32px;border-radius:10px}.privacy-section h2{font-size:21px}.privacy-section p,.privacy-section li{font-size:12.6px;line-height:1.75}.privacy-purpose{padding:13px}.privacy-footer{align-items:flex-start;flex-direction:column;gap:7px}}
+@media(prefers-reduced-motion:reduce){.privacy-policy-page *, .privacy-policy-page *::before,.privacy-policy-page *::after{scroll-behavior:auto!important;transition:none!important}}
